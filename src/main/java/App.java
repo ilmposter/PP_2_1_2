@@ -15,6 +15,6 @@ public class App {
                 applicationContext.getBean("catBean", Cat.class);
         System.out.println("Результат сравнения бинов Hello world: " + (bean == bean2));
         System.out.println("Результат сравнения бинов Cat: " + (beanCat == beanCat2));
-//        System.out.println(bean.getMessage());
+        System.out.println(bean.getMessage());
     }
 }
